@@ -3,7 +3,6 @@ from inspect import stack
 
 
 def gauss(matrix):
-
     n = len(matrix)
     solution = [None]*n
 
@@ -27,7 +26,6 @@ def gauss(matrix):
 
 
 def iterative(matrix, eps=.01):
-
     n = len(matrix)
     solution = []
 
