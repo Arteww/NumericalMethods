@@ -9,4 +9,3 @@ gaussSolution = gauss(matrix)
 # Вывод решения
 for i in range(len(gaussSolution)):
     print(f"x[{i + 1}] = {gaussSolution[i]}")
-
